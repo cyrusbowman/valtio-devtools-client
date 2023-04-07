@@ -1,0 +1,29 @@
+{
+  "name": "valtio-devtools-client",
+  "version": "1.0.1",
+  "description": "Library to connect valtio app to valtio-devtools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/cyrusbowman/valtio-devtools-client.git"
+  },
+  "keywords": [
+    "valtio",
+    "devtools"
+  ],
+  "author": "Cyrus Bowman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/cyrusbowman/valtio-devtools-client/issues"
+  },
+  "homepage": "https://gitlab.com/cyrusbowman/valtio-devtools-client#readme",
+  "dependencies": {
+    "isomorphic-ws": "^5.0.0"
+  },
+  "peerDependencies": {
+    "valtio": "^1.10.4"
+  }
+}
